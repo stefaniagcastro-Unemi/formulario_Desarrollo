@@ -37,9 +37,9 @@ cd formulario-react
 npm install
 ```
 
-**Ejecución**
+##Ejecución
 
-Para iniciar la aplicación en modo desarrollo:
+**Para iniciar la aplicación en modo desarrollo:**
 
 ```bash
 npm start
