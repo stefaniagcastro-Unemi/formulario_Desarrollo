@@ -38,9 +38,10 @@ npm install
 ```
 
 **Ejecución**
+
 Para iniciar la aplicación en modo desarrollo:
 
-``bash
+```bash
 npm start
 ```
 
