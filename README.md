@@ -29,7 +29,9 @@ Este proyecto es un **formulario de registro de un Spa**, desarrollado en **Reac
 ```bash
 git clone https://github.com/stefaniagcastro-Unemi/formulario_Desarrollo.git
 cd formulario-react
-Instalar dependencias:
+```
+
+**Instalar dependencias:**
 
 ```bash
 npm install
