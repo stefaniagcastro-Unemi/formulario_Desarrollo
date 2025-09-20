@@ -4,7 +4,7 @@ Este proyecto es un **formulario de registro de un Spa**, desarrollado en **Reac
 
 ---
 
-## 📌 Contenido del repositorio
+## Contenido del repositorio
 
 - `src/` → Código fuente de la aplicación:
   - `App.js` → Formulario con validaciones dinámicas.
@@ -15,14 +15,14 @@ Este proyecto es un **formulario de registro de un Spa**, desarrollado en **Reac
 
 ---
 
-## 📌 Requisitos
+## Requisitos
 
 - Node.js ≥ 20
 - npm (Node Package Manager)
 
 ---
 
-## 📌 Instalación
+## Instalación
 
 1. Clonar el repositorio o descargar ZIP:
 
@@ -37,7 +37,7 @@ cd formulario-react
 npm install
 ```
 
-##Ejecución
+## Ejecución
 
 **Para iniciar la aplicación en modo desarrollo:**
 
