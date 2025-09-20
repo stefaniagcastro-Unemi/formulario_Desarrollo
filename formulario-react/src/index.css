@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -8,34 +8,78 @@ body {
 }
 
 .form-container {
-  background: white;
-  border-radius: 20px;
+  background: #fff0f5;
+  border-radius: 25px;
   padding: 40px;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.4);
+  max-width: 450px;
   width: 100%;
+  text-align: center;
+  position: relative;
 }
 
 h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #6a0572;
+  color: #ff1493;
   font-weight: bold;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 2px #ff69b4;
 }
 
+/* Inputs */
+.form-control {
+  border-radius: 15px;
+  border: 2px solid #ffc0cb;
+  padding-left: 40px;
+  background: #fff0f5;
+  transition: all 0.3s;
+}
+
+.form-control:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 0 8px rgba(255, 20, 147, 0.4);
+  background: #ffe6f0;
+}
+
+/* Botón */
 .btn-custom {
-  background: linear-gradient(45deg, #ff6ec7, #8e44ad);
+  background: linear-gradient(45deg, #ff69b4, #ff1493);
   border: none;
   color: white;
   font-weight: bold;
-  transition: transform 0.2s ease-in-out;
+  border-radius: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .btn-custom:hover {
   transform: scale(1.05);
-  background: linear-gradient(45deg, #8e44ad, #ff6ec7);
+  box-shadow: 0 5px 15px rgba(255, 20, 147, 0.5);
 }
+
+/* Mensajes de error */
 .error-text {
-  color: #d9534f;
+  color: #ff1493;
   font-size: 0.9rem;
+  margin-top: 5px;
+  text-align: left;
+}
+
+/* Iconos dentro de los inputs */
+.input-icon {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 12px;
+  color: #ff69b4;
+}
+.input-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Mostrar/Ocultar contraseña */
+.show-password {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+  color: #ff1493;
 }
